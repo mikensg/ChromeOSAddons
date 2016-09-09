@@ -47,6 +47,3 @@ cp /opt/data/libffmpegsumo.so /usr/lib/mozilla/plugins/ -f
 echo "Cleaning up..."
 rm -rf /opt/data
 rm /opt/data.tar
-
-echo "Restarting..."
-restart ui
