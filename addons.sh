@@ -9,7 +9,8 @@ if [[ $EUID -ne 0 ]]; then
    echo "This script must be run as root" 1>&2
    exit 1
 fi
-
+# Mount as read write
+mount -o remount, rw /
 cd /opt
 
 # Download install files
